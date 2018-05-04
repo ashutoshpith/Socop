@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'simple_form', '~> 4.0'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'bootstrap', '~> 4.1', '>= 4.1.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'haml', '~> 5.0', '>= 5.0.4'
