@@ -1,5 +1,11 @@
 <h1><%= @pic.title %></h1>
 <p><%= @pic.description %></p>
+<p>Content and Pic By
+  <%= @pic.user.email %>
+<br>
+</p>
+<h3>
 <%= link_to 'Back', root_path %>
 <%= link_to 'Edit', edit_pic_path %>
 <%= link_to 'Delete', pic_path, method: :delete, data: { confirm: "Are You Fine With That Change ?"} %>
+</h3>

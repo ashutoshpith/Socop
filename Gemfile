@@ -32,6 +32,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'haml', '~> 5.0', '>= 5.0.4'
+gem 'devise', '~> 4.4', '>= 4.4.3'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
